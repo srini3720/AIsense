@@ -80,12 +80,12 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <Image
                 src="/favicon.svg"
-                alt="Open Operator"
+                alt="AI Sense"
                 className="w-8 h-8"
                 width={32}
                 height={32}
               />
-              <span className="font-ppsupply text-gray-900">Open Operator</span>
+              <span className="font-ppsupply text-gray-900">AI Sense</span>
             </div>
             <div className="flex items-center gap-2">
               <a
@@ -127,7 +127,7 @@ export default function Home() {
               <div className="p-8 flex flex-col items-center gap-8">
                 <div className="flex flex-col items-center gap-3">
                   <h1 className="text-2xl font-ppneue text-gray-900 text-center">
-                    Open Operator
+                    AI Sense
                   </h1>
                   <p className="text-base font-ppsupply text-gray-500 text-center">
                     Hit run to watch AI browse the web.

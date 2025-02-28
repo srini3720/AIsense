@@ -297,12 +297,12 @@ export default function ChatFeed({ initialMessage, onClose }: ChatFeedProps) {
         <div className="flex items-center gap-2">
           <Image
             src="/favicon.svg"
-            alt="Open Operator"
+            alt="AI Sense"
             className="w-8 h-8"
             width={32}
             height={32}
           />
-          <span className="font-ppneue text-gray-900">Open Operator</span>
+          <span className="font-ppneue text-gray-900">AI Sense</span>
         </div>
         <motion.button
           onClick={onClose}
