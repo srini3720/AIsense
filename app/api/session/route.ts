@@ -102,6 +102,7 @@ async function createSession(timezone?: string, contextId?: string) {
     projectId: process.env.BROWSERBASE_PROJECT_ID!,
     browserSettings,
     keepAlive: false,
+    timeout: 3600,
     region: getClosestRegion(timezone),
   });
   return {
